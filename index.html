@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Proverbi di Babbo Marcello</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title">I Proverbi di Babbo Marcello</h1>
+            <p class="subtitle">Saggezza popolare in versione goliardica</p>
+        </header>
+
+        <main class="main-content">
+            <div class="photo-section">
+                <div class="photo-frame">
+                    <img src="babbo.JPG" alt="Foto di Babbo Marcello con i funghi" class="babbo-photo">
+                </div>
+            </div>
+
+            <div class="proverb-section">
+                <div class="proverb-card">
+                    <div class="proverb-content">
+                        <p class="proverb-text" id="proverbText">
+                            Clicca il pulsante per scoprire un proverbio di Babbo Marcello!
+                        </p>
+                    </div>
+                    <div class="proverb-author">
+                        <span class="author-text">— Babbo Marcello</span>
+                    </div>
+                </div>
+
+                <button class="generate-btn" id="generateBtn">
+                    <span class="btn-text">Genera Proverbio</span>
+                    <span class="btn-icon">🎲</span>
+                </button>
+            </div>
+
+            <div class="stats-section">
+                <div class="stat-card">
+                    <span class="stat-number" id="proverbCount">0</span>
+                    <span class="stat-label">Proverbi Generati</span>
+                </div>
+                <div class="stat-card" id="favoritesCard" style="cursor: pointer;">
+                    <span class="stat-number" id="favoriteCount">0</span>
+                    <span class="stat-label">Preferiti</span>
+                    <span class="view-favorites-hint">👆 Clicca per vedere</span>
+                </div>
+            </div>
+
+            <div class="favorites-section" id="favoritesSection" style="display: none;">
+                <h3 class="favorites-title">🌟 I Miei Preferiti</h3>
+                <div class="favorites-list" id="favoritesList">
+                    <!-- I proverbi preferiti verranno aggiunti qui -->
+                </div>
+                <button class="close-favorites-btn" id="closeFavoritesBtn">
+                    <span>Chiudi Preferiti</span>
+                </button>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>Creato con ❤️ per Babbo Marcello</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
