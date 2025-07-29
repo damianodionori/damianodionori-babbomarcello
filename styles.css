@@ -6,7 +6,9 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%);
+    background: linear-gradient(135deg, #2ecc71 0%, #27ae60 25%, #16a085 50%, #1abc9c 75%, #2ecc71 100%);
+    background-size: 400% 400%;
+    animation: gradientShift 15s ease infinite;
     min-height: 100vh;
     color: #333;
     overflow-x: hidden;
@@ -472,3 +474,18 @@ body {
         font-size: 0.7rem;
     }
 } 
+
+/* Animazione per il gradiente sfumato */
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Stili per la foto di Marcello */ 
