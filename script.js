@@ -48,16 +48,16 @@ function updateDisplay(proverb) {
     proverbCard.classList.add('animate');
     
     // Aggiorna il testo con effetto di digitazione
-    proverbText.textContent = '';
-    let i = 0;
-    const typeWriter = () => {
-        if (i < proverb.length) {
-            proverbText.textContent += proverb.charAt(i);
-            i++;
-            setTimeout(typeWriter, 30);
-        }
-    };
-    typeWriter();
+proverbText.textContent = '';
+let i = 0;
+const typeWriter = () => {
+    if (i < proverb.length) {
+        proverbText.textContent = proverb.substring(0, i + 1);
+        i++;
+        setTimeout(typeWriter, 30);
+    }
+};
+typeWriter();
     
     // Aggiorna contatore
     proverbCounter++;
