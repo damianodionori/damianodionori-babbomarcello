@@ -5,7 +5,32 @@ const proverbi = [
     "Tutto risparmiato!",
     "Lo diceva sempre il mi poro babbo!",
     "Io non mi ammalo dal 1981!",
-    "So contento per mi zi Peppe che non ci credeva!"
+    "So contento per mi zi Peppe che non ci credeva!",
+    "Chi balla balla, chi non balla..alle prode!",
+    "Nel più ci sta anche il meno",
+    "Con il tempo e con la paglia, si matura la sorba e la canagli",
+    "Il meglio dico del paniere quando dormi",
+    "Già che sei in piedi..",
+    "Già che non fai niente..",
+    "Ma è proprio una donna",
+    "Nulla c'avevi e nulla porti",
+    "Tanto paga pantalone",
+    "Soldi, meglio pochi e subito che tanti e maledetti",
+    "Come faremo a morì che non ci siamo abituati",
+    "Te sì che hai visto un bel mondo",
+    "Il caldo fa brutti scherzi",
+    "Chi non paga pigione, fuori di casa",
+    "A pagà e a morì c'è sempre tempo",
+    "Mica ce l'ho conte, ma con chi ti scioglie la mattina presto",
+    "Mica ce l'ho conte, ma con chi ti dà da mangiare",
+    "C'hai una voglia di lavorare come una giubba attaccata",
+    "Speriamo un sia nulla",
+    "La legge per i nemici si applica e per gli amici si interpreta",
+    "Voglia di lavorare saltami addosso, fammi lavorare meno che posso",
+    "Compagno compagno, te lavora che io magno",
+    "Tra averceli e non averceli so sei punti",
+    "Mangia, che giù è tutto buio",
+    "La ragione è dei fessi"
 ];
 
 // Elementi DOM
