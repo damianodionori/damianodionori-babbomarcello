@@ -3,6 +3,7 @@ const proverbi = [
     "Se non fosse per la stirpe di coloro, non si chiamerebbe Monte Argentario ma Monte D'Oro!",
     "Presto che è tardi!",
     "Tutto risparmiato!",
+    "Che vinca o che perda, a me in tasca non mi viene niente",
     "Lo diceva sempre il mi poro babbo!",
     "Io non mi ammalo dal 1981!",
     "So contento per mi zi Peppe che non ci credeva!",
