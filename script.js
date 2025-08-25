@@ -9,11 +9,10 @@ const proverbi = [
     "So contento per mi zi Peppe che non ci credeva!",
     "Chi balla balla, chi non balla..alle prode!",
     "Nel più ci sta anche il meno",
-    "Con il tempo e con la paglia, si matura la sorba e la canagli",
+    "Con il tempo e con la paglia, si matura la sorba e la canaglia",
     "Il meglio fico del paniere quando dormi",
     "Chi va piano va sano e va lontano, chi va forte va incontro alla morte",
-    "Già che sei in piedi..",
-    "Già che non fai niente..",
+    "Già che sei in piedi e non fai niente",
     "Ma è proprio una donna",
     "Io parlo il toscano di giorno e il russo di notte",
     "Je parlé fransé come se nient'an fuss",
@@ -27,15 +26,16 @@ const proverbi = [
     "Chi non paga pigione, fuori di casa",
     "A pagà e a morì c'è sempre tempo",
     "Mica ce l'ho conte, ma con chi ti scioglie la mattina presto",
-    "Mica ce l'ho conte, ma con chi ti dà da mangiare",
     "C'hai una voglia di lavorare come una giubba attaccata",
     "Speriamo un sia nulla",
     "La legge per i nemici si applica e per gli amici si interpreta",
     "Voglia di lavorare saltami addosso, fammi lavorare meno che posso",
     "Compagno compagno, te lavora che io magno",
-    "Tra averceli e non averceli so sei punti",
+    "50€ tra averceli e non averceli so 100€",
     "Mangia, che giù è tutto buio",
-    "La ragione è dei fessi"
+    "La ragione è dei fessi",
+    "Se trovi il tombino fammi un fischio",
+    "Donna al volante, pericolo costante"
 ];
 
 // Elementi DOM
