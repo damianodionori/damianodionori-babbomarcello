@@ -23,6 +23,7 @@ const proverbi = [
     "Come faremo a morì che non ci siamo abituati",
     "Te sì che hai visto un bel mondo",
     "Il caldo fa brutti scherzi",
+    "La fame cava il lupo dal bosco",
     "Chi non paga pigione, fuori di casa",
     "A pagà e a morì c'è sempre tempo",
     "Mica ce l'ho conte, ma con chi ti scioglie la mattina presto",
